@@ -246,7 +246,8 @@ footer nav a {
     /* border: 1px solid blue; */
     border-bottom: 1px dashed black;  
     width: 48%; 
-    margin: 2% 0% 2% 0%; 
+    margin: 2% 0% 2% 0%;
+    padding-bottom: 1%;  
 }
 
 .about-box h3 {
@@ -276,6 +277,7 @@ button{
     background: transparent; 
     color: dodgerblue;
     font-weight: bold; 
+    outline: transparent;
     transition: background .25s ease, color .25s ease, box-shadow .15s ease;
 }
 
