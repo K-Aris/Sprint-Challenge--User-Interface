@@ -269,3 +269,22 @@ footer nav a {
 .about-bottom-box {
     margin: 1% 0% 3% 0%; 
 }
+
+/*annimation stretch*/ 
+
+button{
+    background: transparent; 
+    color: dodgerblue;
+    font-weight: bold; 
+    transition: background .25s ease, color .25s ease, box-shadow .15s ease;
+}
+
+button:hover {
+        color: white; 
+        background:dodgerblue;
+        box-shadow: 3px 3px 0 #888;
+}
+
+button:active {
+        box-shadow: 0 0 0 #888;
+}
