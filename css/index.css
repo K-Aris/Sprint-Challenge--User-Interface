@@ -223,17 +223,19 @@ footer nav a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
+
     border-bottom: 1px dashed black;
+    
 }
 
-.about-top-content .-about-text-container {
-    width: 48%;
+.about-top-content .about-text-container {
+    width: 98%;
     padding: 0 1%;
     padding-bottom: 20px;
 }
 
 .about-boxes {
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
     width: 100%; 
     display: flex; 
     flex-wrap: wrap; 
@@ -260,6 +262,10 @@ footer nav a {
     border: 1px solid black; 
     border-radius: 10px;
     margin: 3% 0% 3% 0%;
-    padding: 3%; 
-    width: 35%; 
+    padding: 2%; 
+    width: 30%; 
+}
+
+.about-bottom-box {
+    margin: 1% 0% 3% 0%; 
 }
