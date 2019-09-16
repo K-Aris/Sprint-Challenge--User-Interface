@@ -290,3 +290,13 @@ button:hover {
 button:active {
         box-shadow: 0 0 0 #888;
 }
+
+/*products page*/ 
+
+.product-image-content img {
+    margin: 2% 0% 2% 0%; 
+    max-width: 100%; 
+}
+
+
+
