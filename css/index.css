@@ -66,9 +66,39 @@ p {
     line-height: 1.4;
 }
 
+header {
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    /* border: 1px solid red; */
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 2% 0% 0%;
+    font-size: 16px;
+    text-align: center;
+    margin: 1% 0% 1% 0%;
+}
+
+header nav a {
+    /* border: 1px solid blue;  */
+    text-decoration: none; 
+    color: black; 
+    margin-top: 3%;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.image-content {
+    margin: 2% 0% 2% 0%
 }
 
 .top-content {
@@ -101,7 +131,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +140,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal; 
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +213,122 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*ABOUT START HERE*/
+
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+    border-bottom: 1px dashed black;
+    
+}
+
+.about-top-content .about-text-container {
+    width: 98%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.about-boxes {
+    /* border: 1px solid red;  */
+    width: 100%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+.about-box {
+    /* border: 1px solid blue; */
+    border-bottom: 1px dashed black;  
+    width: 48%; 
+    margin: 2% 0% 2% 0%;
+    padding-bottom: 1%;  
+}
+
+.about-box h3 {
+    margin: 2% 0% 2% 0%; 
+}
+
+.about-box p {
+    margin: 3% 0% 3% 0%;
+}
+
+.about-box button {
+    background-color: white; 
+    border: 1px solid black; 
+    border-radius: 10px;
+    margin: 3% 0% 3% 0%;
+    padding: 2%; 
+    width: 30%; 
+}
+
+.about-bottom-box {
+    margin: 1% 0% 3% 0%; 
+}
+
+/*annimation stretch*/ 
+
+button{
+    background: transparent; 
+    color: dodgerblue;
+    font-weight: bold; 
+    outline: transparent;
+    transition: background .25s ease, color .25s ease, box-shadow .15s ease;
+}
+
+button:hover {
+        color: white; 
+        background:dodgerblue;
+        box-shadow: 3px 3px 0 #888;
+}
+
+button:active {
+        box-shadow: 0 0 0 #888;
+}
+
+/*products page*/ 
+
+.product-image-content img {
+    margin: 2% 0% 2% 0%; 
+    max-width: 100%; 
+}
+
+
+
+/*Contact US PAGE */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 2%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    resize: vertical;
+    outline: transparent;
+}
+
+input[type=submit] {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: darkblue;
+}
+
+.contact-container {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 3%; 
 }
